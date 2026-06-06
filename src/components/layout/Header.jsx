@@ -11,7 +11,7 @@ export default function Header() {
     <header className='flex items-center justify-between bg-black text-white p-4 border-b border-gray-700 fixed top-0 w-full'>
         <Link href={"/"} className='text-2xl font-bold'>Portfolio</Link>
         <Navbar isOpen={isOpen} setIsOpen={setIsOpen}/>
-        <button className='text-xl block lg:hidden' onClick={()=> setIsOpen(!isOpen)}>
+        <button className='text-2xl block lg:hidden' onClick={()=> setIsOpen(!isOpen)}>
           {
             isOpen ? <RxCross1/> :  <IoMenu/>
           }
