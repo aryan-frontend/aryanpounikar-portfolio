@@ -7,7 +7,7 @@ import { ImRocket } from 'react-icons/im';
 
 export default function AboutSection() {
     return (
-        <section id='about' className=" py-12 px-10 bg-black">
+        <section id='about' className=" py-12 px-5 lg:px-10 bg-black">
             <h1 className="lg:text-5xl text-3xl text-center font-bold gradient-text ">
                 About me
             </h1>

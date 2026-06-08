@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from "next/image";
-import ecommerce from "../../assets/images/ecommerce.png"
 import todoList from "../../assets/images/todo_list.png"
 
 export default function ProjectSection() {
   return (
-   <section id='project' className="py-12 px-10 bg-black">
+   <section id='project' className="py-12 px-5 lg:px-10 bg-black">
                 <h1 className="lg:text-5xl text-3xl text-center font-bold gradient-text py-5">
                     Projects
                 </h1>
