@@ -5,7 +5,7 @@ import ContactCard from '../ui/ContactCard'
 
 export default function ContactSection() {
   return (
-    <section className="py-12 px-10 bg-black">
+    <section id='contact' className="py-12 px-10 bg-black">
       <h1 className="lg:text-5xl text-3xl text-center font-bold gradient-text py-5">
         Get In Touch
       </h1>

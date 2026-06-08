@@ -3,7 +3,7 @@ import Skill from '../ui/Skill'
 
 export default function SkillSection() {
     return (
-        <section className='w-full py-13 px-10 bg-black'>
+        <section id='skill' className='w-full py-13 px-10 bg-black'>
             <h1
                 className="lg:text-5xl text-3xl text-center font-bold bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 Skills & Experties

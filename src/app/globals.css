@@ -33,3 +33,11 @@ body {
 .gradient-bg {
     background: linear-gradient(to right, #22d3ee, #3b82f6);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
