@@ -5,7 +5,7 @@ import todoList from "../../assets/images/todo_list.png"
 
 export default function ProjectSection() {
   return (
-   <section className="py-12 px-5 bg-black">
+   <section className="py-12 px-10 bg-black">
                 <h1 className="lg:text-5xl text-3xl text-center font-bold gradient-text py-5">
                     Projects
                 </h1>

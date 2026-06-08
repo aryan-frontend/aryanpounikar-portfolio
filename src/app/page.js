@@ -1,9 +1,8 @@
 import AboutSection from "@/components/sections/AboutSection";
+import ContactSection from "@/components/sections/ContactSection";
 import HomeSection from "@/components/sections/HomeSection";
 import ProjectSection from "@/components/sections/ProjectSection";
 import SkillSection from "@/components/sections/SkillSection";
-import SkillsSection from "@/components/ui/Skill";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,6 +11,7 @@ export default function Home() {
       <AboutSection/>
       <ProjectSection/>
       <SkillSection/>
+      <ContactSection/>
     </div>
 
   );

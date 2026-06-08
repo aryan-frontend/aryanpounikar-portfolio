@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HomeSection() {
   return (
-    <section className="text-center py-20  bg-black px-5">
+    <section className="text-center py-20 bg-black px-10">
       <h1 className="lg:text-7xl text-5xl text-white font-bold mb-5 pt-15">Hi, I'm</h1>
       <h1 className="lg:text-7xl text-5xl font-bold gradient-text mb-10 gradient-text">
         Aryan Pounikar

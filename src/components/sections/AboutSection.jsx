@@ -7,11 +7,11 @@ import { ImRocket } from 'react-icons/im';
 
 export default function AboutSection() {
     return (
-        <section className=" py-12 bg-black">
+        <section className=" py-12 px-10 bg-black">
             <h1 className="lg:text-5xl text-3xl text-center font-bold gradient-text ">
                 About me
             </h1>
-            <div className="text-white flex flex-col lg:flex-row items-center justify-center gap-10 p-5 mt-18">
+            <div className="text-white flex flex-col lg:flex-row items-center justify-center gap-10 py-5 mt-18">
 
                 <article className="max-w-4xl text-center lg:text-left">
                     <p>
@@ -21,10 +21,8 @@ export default function AboutSection() {
                 </article>
 
                 <Image src={profilePhoto} alt='profilePhoto' className="w-75 h-75 rounded-full"  />
-              
-
             </div>
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-7 mt-18 px-5">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-7 mt-18">
                 <div
                     className="text-white border-2 border-gray-800 hover:border-blue-900 p-7 rounded-3xl hover:-translate-y-4 transition-transform duration-1000">
                     <div

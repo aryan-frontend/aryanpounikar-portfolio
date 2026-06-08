@@ -3,7 +3,7 @@ import Skill from '../ui/Skill'
 
 export default function SkillSection() {
     return (
-        <section className='w-full py-13 px-5 bg-black'>
+        <section className='w-full py-13 px-10 bg-black'>
             <h1
                 className="lg:text-5xl text-3xl text-center font-bold bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 Skills & Experties
@@ -18,6 +18,7 @@ export default function SkillSection() {
                     <Skill name="Tailwind CSS" percent={80} />
                     <Skill name="JavaScript" percent={75} />
                     <Skill name="ReactJs" percent={85} />
+                    <Skill name="Next.js" percent={85} />
 
                 </div>
                 <div
