@@ -20,10 +20,10 @@ export default function ProjectSection() {
                                 activities efficiently. Built with a focus on usability, performance, and persistent
                                 data storage.
                             </p>
-                            <a href="https://to-do-list-ten-pi-56.vercel.app" target="_blank"
+                            <a href="https://todo-list-woad-tau.vercel.app/" target="_blank"
                                 className="border-2 border-blue-900 px-3 py-1 rounded-xl m-1">Live Demo</a>
 
-                            <a href="https://github.com/aryan-frontend/ToDo_List" target="_blank"
+                            <a href="https://github.com/aryan-frontend/todo-list" target="_blank"
                                 className="border-2 border-blue-900 px-3 py-1 rounded-xl m-1">Code</a>
                         </div>
                     </div>
