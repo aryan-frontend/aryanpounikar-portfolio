@@ -19,10 +19,10 @@ export default function ContactSection() {
             I'm always excited to work on new projects and collaborate with creative people.
             Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
-          <ContactCard url={"mailto:pounikararyan@gmail.com"} title={"Email"} name={"pounikararyan@gmail.com"} icon={FaEnvelope}/>
-          <ContactCard url={"https://linkedin.com/in/aryan-pounikar-40a617315"} title={"LinkdIn"} name={"Aryan Pounikar"} icon={FaLinkedin}/>
-          <ContactCard url={"https://github.com/aryan-frontend"} title={"Github"} name={"aryan-frontend"} icon={FaGithub}/>
-          
+          <ContactCard url={"mailto:pounikararyan@gmail.com"} title={"Email"} name={"pounikararyan@gmail.com"} icon={FaEnvelope} />
+          <ContactCard url={"https://linkedin.com/in/aryan-pounikar-40a617315"} title={"LinkdIn"} name={"Aryan Pounikar"} icon={FaLinkedin} />
+          <ContactCard url={"https://github.com/aryan-frontend"} title={"Github"} name={"aryan-frontend"} icon={FaGithub} />
+
         </div>
         <form className="bg-[001F3D] p-5  text-white border border-gray-800 rounded-xl">
           <Input labelName={"Name"} type={"text"} name={"name"} id={"name"} />
