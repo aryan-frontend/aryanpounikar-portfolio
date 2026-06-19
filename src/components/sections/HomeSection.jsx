@@ -20,7 +20,7 @@ export default function HomeSection() {
           className="border-2 border-gray-300 px-7 py-2 text-white font-bold rounded-3xl hover:bg-gray-900 hover:scale-110 transition-transform duration-300">
           Get In Touch
         </Link>
-        <Link href="/AryanPounikar.pdf" download
+        <Link href="/Aryan's resume.pdf" download
           className="text-white font-bold border-2 px-7 py-2 rounded-3xl hover:scale-110 transition-transform duration-300">Download
           Resume</Link>
       </div>

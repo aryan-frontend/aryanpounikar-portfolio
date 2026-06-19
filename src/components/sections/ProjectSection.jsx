@@ -15,7 +15,7 @@ export default function ProjectSection() {
                             className="border-2 border-gray-800 hover:border-blue-900  rounded-3xl overflow-hidden hover:-translate-y-4 transition-transform duration-1000" key={idx}>
                             <Image src={item.img} alt={item.title} />
                             <div className="p-4">
-                                <h3 className="text-2xl font-bold">To Do List</h3>
+                                <h3 className="text-2xl font-bold">{item.title}</h3>
                                 <p className="text-gray-400 my-3 text-justify ">
                                     {item.disc}
                                 </p>
