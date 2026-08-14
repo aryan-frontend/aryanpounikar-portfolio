@@ -39,7 +39,9 @@ export default function SkillSection() {
                         className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent text-2xl font-bold mb-5">
                         Backend</h2>
 
-                    <Skill name="NodeJs" percent={50} />
+                    <Skill name="Node.js" percent={50} />
+                    <Skill name="Express.js" percent={50} />
+                    <Skill name="MongoDb" percent={50} />
                     
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import todoList from "../assets/images/todo_list.png"
 import ecommerce from "../assets/images/ecommerce.png"
+import userEnquiry from "../assets/images/userEnquiry.png"
 export const projects = [{
     title: "Shophub - Ecommerce",
     img: ecommerce,
@@ -7,6 +8,17 @@ export const projects = [{
     liveLink: "https://nextjs-shophub.vercel.app/",
     repoLink: "https://github.com/aryan-frontend/nextjs-shophub"
 },
+
+{
+    
+    title: "User Enquiry",
+    img: userEnquiry,
+    disc: "A full-stack User Enquiry Management System built using the MERN stack. The application allows users to submit enquiries through a responsive contact form and provides an admin dashboard to view, search, update, and delete enquiries.",
+    liveLink: "https://user-enquiry-sooty.vercel.app/",
+    repoLink: "https://github.com/aryan-frontend/enquiry-frontend"
+
+},
+
 {
     title: "To Do List",
     img: todoList,
